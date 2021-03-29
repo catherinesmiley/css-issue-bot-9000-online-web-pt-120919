@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "## Problem Statement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherinesmiley/css-issue-bot-9000-online-web-pt-120919.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherinesmiley/css-issue-bot-9000-online-web-pt-120919/issues"
+  },
+  "homepage": "https://github.com/catherinesmiley/css-issue-bot-9000-online-web-pt-120919#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "http-server": "^0.12.3"
+  }
+}
